@@ -1,0 +1,26 @@
+.head{
+    background-color: #fff;
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1110px;
+        height: 284px;
+        margin-top: 200px;
+
+    }
+    &__item{
+        width: 350px;
+        height: 204px;
+        border-radius: 8px;
+        background: #F1F1F1;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+
+    }
+    &__img{
+        // border: 1px solid;
+        margin-top: -40px;
+    }
+}

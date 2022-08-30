@@ -1,0 +1,34 @@
+.hero{
+    background: #000000;
+    &__title{
+        align-items: center;
+        justify-content: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: 'Manrope';
+        text-align: center;
+
+    }
+    &__headphones{
+       
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 170px;
+        ;padding-bottom: 97px;
+        align-items: center;
+        justify-content: center;
+    }
+}

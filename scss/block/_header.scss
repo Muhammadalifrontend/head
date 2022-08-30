@@ -1,0 +1,51 @@
+.header{
+    padding: 35px 0;
+    background-color: #0E0E0E;
+    &__icon{
+        color: aliceblue;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    &__list{
+        display: flex;
+        
+        align-items: center;
+        width: 429px;
+        
+
+
+    }
+    &__link{
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    &__bar{
+        margin-right: 42px;
+    display: none;
+    }
+    &__rectangle{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .header{
+        
+        &__list{
+            display: none;  
+        }
+       
+        &__bar{
+            display: inline-block;
+            color: #FFFFFF;
+        }
+       
+       
+    }
+}

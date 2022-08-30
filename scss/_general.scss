@@ -1,0 +1,37 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button,
+input,
+textarea,
+select,
+option {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+body {
+    font-family: "Manrope";
+
+}
+.container {
+  width: 1300px;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
